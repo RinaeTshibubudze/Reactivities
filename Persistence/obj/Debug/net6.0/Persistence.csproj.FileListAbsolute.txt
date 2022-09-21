@@ -1,0 +1,15 @@
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/bin/Debug/net6.0/Persistence.deps.json
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/bin/Debug/net6.0/Persistence.dll
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/bin/Debug/net6.0/Persistence.pdb
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/bin/Debug/net6.0/Domain.dll
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/bin/Debug/net6.0/Domain.pdb
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfoInputs.cache
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfo.cs
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.csproj.CopyComplete
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.dll
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/refint/Persistence.dll
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/Persistence.pdb
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Persistence/obj/Debug/net6.0/ref/Persistence.dll

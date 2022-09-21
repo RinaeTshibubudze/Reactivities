@@ -1,0 +1,12 @@
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/bin/Debug/net6.0/Domain.deps.json
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/bin/Debug/net6.0/Domain.dll
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/bin/Debug/net6.0/Domain.pdb
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/Domain.dll
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/refint/Domain.dll
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/Domain.pdb
+/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/obj/Debug/net6.0/ref/Domain.dll
