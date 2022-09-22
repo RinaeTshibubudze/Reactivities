@@ -23,11 +23,11 @@ namespace API.Controllers
             return await _context.Activities.ToListAsync();
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Activity>> GetActivity(Guid id)
-        {
-            var results = await _context.Activities.FirstAsync(id);
-            return results;
-        }
+        //[HttpGet("{id}")]
+        //public async Task<ActionResult<Activity>> GetActivity(Guid id)
+        //{
+        //    var results = await _context.Activities.FirstAsync(id);
+        //    return results;
+        //}
     }
 }

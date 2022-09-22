@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A8P/0VAaEo8iRFi4V4hjEPb0gkwHz08yKliLYfW2ooVhdDJZYVwMTmEdSbMmqTC99A+u4GCpEeOsSWtNhlnVHQ==",
+  "dgSpecHash": "t9YChwolciwH8QKHlF4SiPC5q49RIciwYtov3SSIOLf2dnNrhrUN06upfDuQXDNThelTroLl92Y05Kfuwd2S3Q==",
   "success": true,
-  "projectFilePath": "/Users/rinae/Desktop/Demo/ReactJs/Reactivities/Domain/Domain.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\Reactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
