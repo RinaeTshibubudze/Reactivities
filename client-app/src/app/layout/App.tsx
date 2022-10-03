@@ -42,6 +42,10 @@ function handleCreateOrEditActivitity(activity: Activity){
 
 }
 
+function handleDeleteActivity (id: string) {
+  setActivities([...activities.filter(x => x.id !== id)])
+}
+
 
   return (
     <>
@@ -56,6 +60,8 @@ function handleCreateOrEditActivitity(activity: Activity){
           openForm={handleFormOpen}
           closeForm={handleFormClose}
           createOrEdit={handleCreateOrEditActivitity}
+          deleteActivity={handleDeleteActivity}
+
           />
       </Container>
     </>
