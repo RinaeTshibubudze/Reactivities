@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import { Container} from 'semantic-ui-react';
+import { Button, Container} from 'semantic-ui-react';
 import { Activity } from '../models/activity';
 import Navbar from './Navbar';
 import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard';
@@ -7,6 +7,7 @@ import agent from '../api/agent';
 import LoadingComponent from './LoadingComponets';
 import { v4 } from "uuid";
 import { useStore } from '../stores/store';
+import { observer } from 'mobx-react-lite';
 
 function App() {
   const {activityStore} = useStore();
@@ -82,7 +83,7 @@ if (loading) return <LoadingComponent content='Loading app' />
       <Navbar openForm={handleFormOpen} />
       <Container style={{marginTop: '7em'}}>
           <h2>{activityStore.title}</h2>
-
+          <Button content ='Add exclamation!' positive onClick={activityStore.setTitle} />
           <ActivityDashboard 
           activities={activities} 
           selectedActivity={selectedActivity}
@@ -101,7 +102,7 @@ if (loading) return <LoadingComponent content='Loading app' />
   );
 }
 
-export default App;
+export default observer(App);
 
 export function uuid(): string {
   return v4();
