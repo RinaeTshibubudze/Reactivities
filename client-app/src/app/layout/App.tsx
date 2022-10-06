@@ -6,13 +6,16 @@ import ActivityDashboard from '../../features/activities/dashboard/ActivityDashb
 import agent from '../api/agent';
 import LoadingComponent from './LoadingComponets';
 import { v4 } from "uuid";
+import { useStore } from '../stores/store';
 
 function App() {
-const [activities, setActivities] = useState<Activity[]>([]);
-const [selectedActivity, setSelectedActivity] = useState<Activity | undefined >(undefined);
-const [editMode, setEditMode] = useState(false);
-const [loading, setLoading] = useState(true);
-const [submitting, setSubmitting] = useState(false);
+  const {activityStore} = useStore();
+
+  const [activities, setActivities] = useState<Activity[]>([]);
+  const [selectedActivity, setSelectedActivity] = useState<Activity | undefined >(undefined);
+  const [editMode, setEditMode] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
 
 
 useEffect(() => {
@@ -78,6 +81,8 @@ if (loading) return <LoadingComponent content='Loading app' />
     <>
       <Navbar openForm={handleFormOpen} />
       <Container style={{marginTop: '7em'}}>
+          <h2>{activityStore.title}</h2>
+
           <ActivityDashboard 
           activities={activities} 
           selectedActivity={selectedActivity}
