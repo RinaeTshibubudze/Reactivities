@@ -11,9 +11,10 @@ import LoadingComponent from "../../../app/layout/LoadingComponets";
 export default observer(function ActivityDashboard() {
     
     const {activityStore}  = useStore();
+    const {loadActivities, activityRegistry} = activityStore;
 
         useEffect(() => {
-        activityStore.loadActivities();
+        if (activityRegistry.size <= 1 ) loadActivities();
         }, [activityStore])
 
 
