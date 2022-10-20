@@ -4,7 +4,7 @@ import ActivityList from "./ActivityList";
 import { useStore } from '../../../app/stores/store';
 import { observer } from 'mobx-react-lite';
 import LoadingComponent from "../../../app/layout/LoadingComponets";
-import ActivityFilters from './ActivityFilters';
+import ActivityFilters from "./ActivityFilters";
 
 
 
