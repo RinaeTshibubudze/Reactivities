@@ -22,11 +22,7 @@ namespace API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Activity>> GetActivity(Guid id)
         {
-            var activity = await Mediator.Send(new Details.Query { Id = id });
-
-            if (activity == null) return NotFound();
-
-            return activity;
+            return await Mediator.Send(new Details.Query { Id = id });
         }
 
         [HttpPost]
